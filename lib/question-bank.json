@@ -1,0 +1,646 @@
+[
+  {
+    "id": "bank_001",
+    "en": {
+      "question_text": "It's 2 AM and you're wide awake scrolling. What's actually in your hand right now?",
+      "options": [
+        "Maggi noodles",
+        "A random YouTube rabbit hole",
+        "Someone's Instagram from 2019",
+        "The fridge, hopefully snacks"
+      ]
+    },
+    "hi": {
+      "question_text": "रात के 2 बज रहे हैं और आप फोन चला रहे हैं। आपके हाथ में असल में क्या है?",
+      "options": [
+        "मैगी नूडल्स",
+        "कोई रैंडम यूट्यूब वीडियो",
+        "किसी की 2019 की इंस्टाग्राम प्रोफाइल",
+        "फ्रिज का हैंडल (शायद कुछ खाने को मिल जाए)"
+      ]
+    },
+    "correct_option_index": 3,
+    "category": "midnight_cravings"
+  },
+  {
+    "id": "bank_002",
+    "en": {
+      "question_text": "Biggest red flag on a first date, no debate:",
+      "options": [
+        "They're rude to the waiter",
+        "They check their phone every 2 minutes",
+        "They talk only about their ex",
+        "All of the above, obviously"
+      ]
+    },
+    "hi": {
+      "question_text": "फर्स्ट डेट पर सबसे बड़ा रेड फ्लैग, कोई बहस नहीं:",
+      "options": [
+        "वेटर से बदतमीजी करना",
+        "हर 2 मिनट में फोन चेक करना",
+        "सिर्फ अपने एक्स के बारे में बात करना",
+        "ऊपर के सभी, जाहिर सी बात है"
+      ]
+    },
+    "correct_option_index": 3,
+    "category": "red_flags"
+  },
+  {
+    "id": "bank_003",
+    "en": {
+      "question_text": "Friend group plan drops on Friday night. You are:",
+      "options": [
+        "Already in bed with Netflix",
+        "Getting ready, obviously",
+        "Ghosting the group chat",
+        "Asking 'what time' 3 hours later"
+      ]
+    },
+    "hi": {
+      "question_text": "शुक्रवार रात को दोस्तों का प्लान बनता है। आप क्या कर रहे हैं:",
+      "options": [
+        "पहले से ही बिस्तर में नेटफ्लिक्स के साथ",
+        "तैयार हो रहा हूँ, बिल्कुल",
+        "ग्रुप चैट को इग्नोर (Ghost) कर रहा हूँ",
+        "3 घंटे बाद पूछ रहा हूँ 'कितने बजे?'"
+      ]
+    },
+    "correct_option_index": 1,
+    "category": "weekend_vibes"
+  },
+  {
+    "id": "bank_004",
+    "en": {
+      "question_text": "The most toxic trait a person can have, according to the internet:",
+      "options": [
+        "Double texting",
+        "Never double texting",
+        "Leaving you on read for 3 days",
+        "Replying with just 'lol'"
+      ]
+    },
+    "hi": {
+      "question_text": "इंटरनेट के अनुसार, किसी इंसान की सबसे टॉक्सिक आदत:",
+      "options": [
+        "डबल टेक्स्ट करना",
+        "कभी डबल टेक्स्ट न करना",
+        "3 दिन तक 'Read' पर छोड़ देना",
+        "रिप्लाई में सिर्फ 'lol' लिखना"
+      ]
+    },
+    "correct_option_index": 2,
+    "category": "toxic_traits"
+  },
+  {
+    "id": "bank_005",
+    "en": {
+      "question_text": "Someone says 'we need to talk.' Your nervous system immediately:",
+      "options": [
+        "Stays calm, it's fine",
+        "Starts replaying every conversation from the past month",
+        "Assumes you're getting fired/dumped/cancelled",
+        "Blocks them preemptively"
+      ]
+    },
+    "hi": {
+      "question_text": "कोई कहता है 'हमें बात करनी है।' आपका दिमाग तुरंत:",
+      "options": [
+        "शांत रहता है, सब ठीक है",
+        "पिछले 1 महीने की सारी बातें याद करने लगता है",
+        "सोचता है कि ब्रेकअप या नौकरी जाने वाली है",
+        "उन्हें पहले ही ब्लॉक कर देता है"
+      ]
+    },
+    "correct_option_index": 2,
+    "category": "texting_habits"
+  },
+  {
+    "id": "bank_006",
+    "en": {
+      "question_text": "The single most unhinged thing to put in a group chat name:",
+      "options": [
+        "Inside jokes only 3 people understand",
+        "Someone's embarrassing typo, immortalized forever",
+        "A deadline that was missed 6 months ago",
+        "All three, layered over time"
+      ]
+    },
+    "hi": {
+      "question_text": "ग्रुप चैट के नाम में रखने के लिए सबसे अजीब चीज़:",
+      "options": [
+        "ऐसे जोक्स जो सिर्फ 3 लोगों को समझ आएं",
+        "किसी की शर्मनाक टाइपिंग मिस्टेक, हमेशा के लिए",
+        "6 महीने पुरानी कोई मिस हुई डेडलाइन",
+        "तीनों का मिक्सचर"
+      ]
+    },
+    "correct_option_index": 3,
+    "category": "social_media"
+  },
+  {
+    "id": "bank_007",
+    "en": {
+      "question_text": "You just got paid. First 24 hours, be honest:",
+      "options": [
+        "Straight into savings, no crying",
+        "Online shopping cart goes from 0 to unhinged",
+        "One 'treat yourself' purchase you'll regret",
+        "Paying back the friend you owe since March"
+      ]
+    },
+    "hi": {
+      "question_text": "सैलरी आ गई है। पहले 24 घंटे, सच बताना:",
+      "options": [
+        "सीधे सेविंग्स में, कोई रोना-धोना नहीं",
+        "ऑनलाइन शॉपिंग कार्ट 0 से फुल हो जाती है",
+        "एक 'खुद को ट्रीट' वाली शॉपिंग जिसका बाद में पछतावा होगा",
+        "मार्च से उधार लिए दोस्त के पैसे वापस करना"
+      ]
+    },
+    "correct_option_index": 2,
+    "category": "money"
+  },
+  {
+    "id": "bank_008",
+    "en": {
+      "question_text": "Ultimate 'ick' behavior on a dating app, according to internet consensus:",
+      "options": [
+        "Mirror selfie with the flash on",
+        "Fish pic as the main photo",
+        "Bio that just says 'ask me'",
+        "Texting 'wyd' at 11:47 PM unprompted"
+      ]
+    },
+    "hi": {
+      "question_text": "डेटिंग ऐप पर सबसे बड़ी 'Ick' (अजीब) हरकत:",
+      "options": [
+        "फ्लैश ऑन करके मिरर सेल्फी",
+        "मछली पकड़े हुए मेन फोटो",
+        "बायो में सिर्फ 'ask me' लिखा होना",
+        "रात 11:47 पर बिना बात 'wyd' मैसेज करना"
+      ]
+    },
+    "correct_option_index": 3,
+    "category": "dating"
+  },
+  {
+    "id": "bank_009",
+    "en": {
+      "question_text": "You open the fridge at midnight. The universal truth is:",
+      "options": [
+        "There's suddenly nothing to eat despite it being full",
+        "You eat standing up, door still open",
+        "You find something better than what you were craving",
+        "You just drink water and call it a night"
+      ]
+    },
+    "hi": {
+      "question_text": "रात 12 बजे आप फ्रिज खोलते हैं। यूनिवर्सल सच क्या है:",
+      "options": [
+        "फ्रिज भरा होने के बाद भी कुछ खाने को नहीं मिलता",
+        "आप खड़े-खड़े ही खा लेते हैं, दरवाजा खुला रहता है",
+        "जो खाने का मन था, उससे कुछ बेहतर मिल जाता है",
+        "आप बस पानी पीते हैं और सो जाते हैं"
+      ]
+    },
+    "correct_option_index": 0,
+    "category": "midnight_cravings"
+  },
+  {
+    "id": "bank_010",
+    "en": {
+      "question_text": "Someone in the friend group cancels plans last minute. The correct response is:",
+      "options": [
+        "Mild passive-aggressive '...okay'",
+        "Immediately reschedule, no drama",
+        "Silent screaming, then 'no worries!' out loud",
+        "Secretly relieved because you also didn't want to go"
+      ]
+    },
+    "hi": {
+      "question_text": "दोस्त ने आखिरी वक्त पर प्लान कैंसिल कर दिया। सही रिएक्शन क्या है:",
+      "options": [
+        "थोड़ा पैसिव-अग्रेसिव '...ठीक है'",
+        "तुरंत नया प्लान बनाना, कोई ड्रामा नहीं",
+        "मन में चिल्लाना, बाहर से 'कोई बात नहीं!'",
+        "अंदर से खुश होना क्योंकि आपको भी नहीं जाना था"
+      ]
+    },
+    "correct_option_index": 2,
+    "category": "toxic_traits"
+  },
+  {
+    "id": "bank_011",
+    "en": {
+      "question_text": "The most relatable Sunday scaries symptom is:",
+      "options": [
+        "Suddenly remembering an unanswered email from Tuesday",
+        "Doom-scrolling to avoid thinking about Monday",
+        "Making an unrealistic productivity plan you won't follow",
+        "All of the above, in that exact order"
+      ]
+    },
+    "hi": {
+      "question_text": "संडे की शाम को होने वाली घबराहट का सबसे बड़ा लक्षण:",
+      "options": [
+        "अचानक मंगलवार का बिना रिप्लाई वाला ईमेल याद आना",
+        "सोमवार के बारे में सोचने से बचने के लिए रील्स देखना",
+        "अगले दिन का ऐसा प्लान बनाना जो कभी पूरा नहीं होगा",
+        "ऊपर के सभी, बिल्कुल इसी क्रम में"
+      ]
+    },
+    "correct_option_index": 3,
+    "category": "weekend_vibes"
+  },
+  {
+    "id": "bank_012",
+    "en": {
+      "question_text": "Peak red flag in a group project:",
+      "options": [
+        "They do their part a week early",
+        "They go silent until the night before submission",
+        "They 'just had a few thoughts' and rewrite everything",
+        "They ask for credit despite doing zero work"
+      ]
+    },
+    "hi": {
+      "question_text": "ग्रुप प्रोजेक्ट में सबसे बड़ा रेड फ्लैग:",
+      "options": [
+        "वे अपना काम एक हफ्ते पहले ही कर लेते हैं",
+        "सबमिशन की एक रात पहले तक गायब रहते हैं",
+        "बस 'कुछ आईडिया थे' कहकर सब कुछ दोबारा लिख देते हैं",
+        "जीरो काम करके भी पूरा क्रेडिट मांगते हैं"
+      ]
+    },
+    "correct_option_index": 3,
+    "category": "red_flags"
+  },
+  {
+    "id": "bank_013",
+    "en": {
+      "question_text": "You get a text that just says 'we need to talk.' Your actual reply:",
+      "options": [
+        "'ok when' (internally panicking)",
+        "Immediate phone call, no waiting",
+        "Left on read for strategic calm",
+        "'talk about what 👀' (fishing for info)"
+      ]
+    },
+    "hi": {
+      "question_text": "मैसेज आता है 'हमें बात करनी है।' आपका असली रिप्लाई:",
+      "options": [
+        "'ठीक है, कब' (अंदर से डरते हुए)",
+        "सीधा फोन कॉल, कोई इंतज़ार नहीं",
+        "दिखावे के लिए 'Read' करके छोड़ देना",
+        "'किस बारे में 👀' (बात जानने की कोशिश)"
+      ]
+    },
+    "correct_option_index": 0,
+    "category": "texting_habits"
+  },
+  {
+    "id": "bank_014",
+    "en": {
+      "question_text": "The most Gen-Z way to end a conversation you're done with:",
+      "options": [
+        "A simple 'okay bye'",
+        "Just... stop replying",
+        "Send a random meme and vanish",
+        "'lol anyway' followed by silence"
+      ]
+    },
+    "hi": {
+      "question_text": "जिस चैट से आप बोर हो गए हैं, उसे खत्म करने का Gen-Z तरीका:",
+      "options": [
+        "एक सिंपल 'ओके बाय'",
+        "बस... रिप्लाई करना बंद कर देना",
+        "एक रैंडम मीम भेजना और गायब हो जाना",
+        "'lol anyway' लिखकर सन्नाटा छा जाना"
+      ]
+    },
+    "correct_option_index": 3,
+    "category": "social_media"
+  },
+  {
+    "id": "bank_015",
+    "en": {
+      "question_text": "Weekend plan: Netflix marathon alone vs. a party you didn't fully want to go to. Peak millennial choice:",
+      "options": [
+        "Party, always say yes",
+        "Netflix, cancel the plans an hour before",
+        "Show up to the party for exactly 45 minutes",
+        "Netflix, but tell everyone you're 'so tired'"
+      ]
+    },
+    "hi": {
+      "question_text": "वीकेंड प्लान: अकेले नेटफ्लिक्स vs एक पार्टी जहाँ जाने का मन नहीं है। सबसे सही चॉइस:",
+      "options": [
+        "पार्टी, हमेशा हाँ कहो",
+        "नेटफ्लिक्स, 1 घंटे पहले प्लान कैंसिल कर दो",
+        "पार्टी में जाओ और ठीक 45 मिनट बाद निकल लो",
+        "नेटफ्लिक्स, लेकिन सबको बोलना कि 'मैं बहुत थक गया हूँ'"
+      ]
+    },
+    "correct_option_index": 3,
+    "category": "weekend_vibes"
+  },
+  {
+    "id": "bank_016",
+    "en": {
+      "question_text": "Someone asks to 'split the bill evenly' after ordering the most expensive thing on the menu. This is:",
+      "options": [
+        "Totally fair, don't overthink it",
+        "A crime against humanity",
+        "Fine once, unforgivable twice",
+        "The reason group chats go quiet"
+      ]
+    },
+    "hi": {
+      "question_text": "सबसे महंगी चीज़ ऑर्डर करने के बाद कोई कहता है 'बिल बराबर बाँट लेते हैं'। यह है:",
+      "options": [
+        "बिल्कुल सही, ज्यादा मत सोचो",
+        "इंसानियत के खिलाफ एक जुर्म",
+        "एक बार ठीक है, दूसरी बार माफ़ी नहीं",
+        "वो वजह जिससे ग्रुप चैट शांत हो जाती है"
+      ]
+    },
+    "correct_option_index": 1,
+    "category": "money"
+  },
+  {
+    "id": "bank_017",
+    "en": {
+      "question_text": "The most toxic trait to have as a texter:",
+      "options": [
+        "Typing 'k'",
+        "Sending a paragraph then 'nvm'",
+        "Leaving someone on delivered forever",
+        "Reacting with an emoji instead of replying"
+      ]
+    },
+    "hi": {
+      "question_text": "मैसेज करते वक्त सबसे टॉक्सिक आदत कौन सी है:",
+      "options": [
+        "सिर्फ 'k' लिखना",
+        "बड़ा सा पैराग्राफ लिखकर फिर 'nvm' (रहने दो) भेजना",
+        "किसी का मैसेज 'Delivered' पर ही छोड़ देना",
+        "रिप्लाई करने की जगह बस इमोजी से रियेक्ट कर देना"
+      ]
+    },
+    "correct_option_index": 1,
+    "category": "toxic_traits"
+  },
+  {
+    "id": "bank_018",
+    "en": {
+      "question_text": "2 AM, you're not hungry but you're eating anyway. What's the vibe?",
+      "options": [
+        "Ice cream straight from the tub",
+        "Leftover cold pizza, no reheating",
+        "Chips because they're just... there",
+        "Cereal, dry, out of the box"
+      ]
+    },
+    "hi": {
+      "question_text": "रात के 2 बजे हैं, भूख नहीं है लेकिन फिर भी खा रहे हैं। क्या खा रहे हैं?",
+      "options": [
+        "डब्बे से डायरेक्ट आइसक्रीम",
+        "बचा हुआ ठंडा पिज़्ज़ा, बिना गर्म किए",
+        "चिप्स क्योंकि वो... बस रखे हुए हैं",
+        "सीरियल, सूखा, सीधे पैकेट से"
+      ]
+    },
+    "correct_option_index": 0,
+    "category": "midnight_cravings"
+  },
+  {
+    "id": "bank_019",
+    "en": {
+      "question_text": "Instant red flag when meeting someone's friends for the first time:",
+      "options": [
+        "They already know embarrassing stories about you",
+        "They're colder than expected",
+        "They keep making inside jokes on purpose",
+        "They ask way too many personal questions immediately"
+      ]
+    },
+    "hi": {
+      "question_text": "किसी के दोस्तों से पहली बार मिलते वक्त इंस्टेंट रेड फ्लैग:",
+      "options": [
+        "उन्हें आपके शर्मनाक किस्से पहले से पता हैं",
+        "वे उम्मीद से ज्यादा रूखे हैं",
+        "वे जानबूझकर ऐसे जोक्स मारते हैं जो आपको समझ न आएं",
+        "वे मिलते ही बहुत ज्यादा पर्सनल सवाल पूछने लगते हैं"
+      ]
+    },
+    "correct_option_index": 3,
+    "category": "red_flags"
+  },
+  {
+    "id": "bank_020",
+    "en": {
+      "question_text": "You said 'I'll be there in 5 minutes.' This actually means:",
+      "options": [
+        "5 minutes, obviously",
+        "15-20 minutes minimum",
+        "You haven't left the house yet",
+        "You're still deciding what to wear"
+      ]
+    },
+    "hi": {
+      "question_text": "आपने कहा 'मैं 5 मिनट में पहुँच रहा हूँ।' इसका असली मतलब है:",
+      "options": [
+        "5 मिनट, जाहिर सी बात है",
+        "कम से कम 15-20 मिनट",
+        "आप अभी घर से निकले ही नहीं हैं",
+        "आप अभी भी सोच रहे हैं कि क्या पहनें"
+      ]
+    },
+    "correct_option_index": 2,
+    "category": "social_media"
+  },
+  {
+    "id": "bank_021",
+    "en": {
+      "question_text": "The most millennial financial decision of all time:",
+      "options": [
+        "Buying a $6 coffee while 'saving for a house'",
+        "Impulse subscribing to 4 streaming services",
+        "Splitting a $12 delivery fee 4 ways",
+        "Investing in something you saw on a meme"
+      ]
+    },
+    "hi": {
+      "question_text": "आज के ज़माने का सबसे आम फाइनेंशियल फैसला:",
+      "options": [
+        "'घर के लिए पैसे बचाते हुए' 500 रुपये की कॉफी पीना",
+        "अचानक से 4 स्ट्रीमिंग ऐप्स का सब्सक्रिप्शन लेना",
+        "100 रुपये की डिलीवरी फीस को 4 लोगों में बाँटना",
+        "किसी मीम को देखकर इन्वेस्टमेंट कर देना"
+      ]
+    },
+    "correct_option_index": 0,
+    "category": "money"
+  },
+  {
+    "id": "bank_022",
+    "en": {
+      "question_text": "Someone left you on 'seen' for 3 days then replies like nothing happened. Correct response:",
+      "options": [
+        "Reply immediately like it's fine (it's not fine)",
+        "Match their energy — leave THEM on seen now",
+        "Bring it up passive-aggressively later",
+        "Actually confront it directly, weird flex"
+      ]
+    },
+    "hi": {
+      "question_text": "किसी ने 3 दिन तक 'Seen' पर छोड़ दिया और फिर ऐसे रिप्लाई किया जैसे कुछ हुआ ही न हो। सही रिएक्शन:",
+      "options": [
+        "तुरंत रिप्लाई करना जैसे सब ठीक है (कुछ ठीक नहीं है)",
+        "उनकी तरह ही बर्ताव करना — अब उन्हें 'Seen' पर छोड़ दो",
+        "बाद में ताने मारते हुए इस बात को उठाना",
+        "सीधे इसी बात पर लड़ाई करना"
+      ]
+    },
+    "correct_option_index": 1,
+    "category": "toxic_traits"
+  },
+  {
+    "id": "bank_023",
+    "en": {
+      "question_text": "It's Saturday, 11 AM, you have zero plans. The most relatable move is:",
+      "options": [
+        "Actually being productive",
+        "Staying in bed scrolling until it's basically the afternoon",
+        "Making an elaborate to-do list you'll ignore",
+        "Texting the group chat 'what's everyone doing today'"
+      ]
+    },
+    "hi": {
+      "question_text": "शनिवार सुबह 11 बजे हैं, आपके पास कोई प्लान नहीं है। आप क्या करेंगे:",
+      "options": [
+        "सच में कोई काम करना",
+        "दोपहर होने तक बिस्तर में पड़े-पड़े फोन चलाना",
+        "एक लंबी टू-डू लिस्ट बनाना जिसे आप इग्नोर कर देंगे",
+        "ग्रुप में मैसेज करना 'आज सब क्या कर रहे हैं'"
+      ]
+    },
+    "correct_option_index": 1,
+    "category": "weekend_vibes"
+  },
+  {
+    "id": "bank_024",
+    "en": {
+      "question_text": "Dating app bio red flag that ends the conversation before it starts:",
+      "options": [
+        "'Not looking for anything serious' (in caps)",
+        "No bio at all, just photos",
+        "'Ask me about my situationship'",
+        "A quote with no context whatsoever"
+      ]
+    },
+    "hi": {
+      "question_text": "डेटिंग ऐप के बायो में वो रेड फ्लैग जो बात शुरू होने से पहले ही खत्म कर देता है:",
+      "options": [
+        "'कुछ सीरियस नहीं चाहिए' (कैपिटल लेटर्स में)",
+        "कोई बायो नहीं, सिर्फ फोटोज",
+        "'मेरे सिचुएशनशिप के बारे में पूछो'",
+        "बिना किसी कॉन्टेक्स्ट के कोई कोट (Quote)"
+      ]
+    },
+    "correct_option_index": 0,
+    "category": "dating"
+  },
+  {
+    "id": "bank_025",
+    "en": {
+      "question_text": "The ultimate proof you're an adult now:",
+      "options": [
+        "Getting excited about kitchen appliances",
+        "Choosing sleep over a party without guilt",
+        "Having strong opinions about health insurance",
+        "All three, and it happened overnight"
+      ]
+    },
+    "hi": {
+      "question_text": "आप अब बड़े (Adult) हो गए हैं, इसका सबसे बड़ा सबूत:",
+      "options": [
+        "किचन के बर्तनों/सामान को देखकर एक्साइटेड होना",
+        "बिना गिल्ट के पार्टी छोड़कर सोने जाना",
+        "हेल्थ इन्शुरन्स के बारे में स्ट्रॉन्ग ओपिनियन रखना",
+        "तीनों, और यह सब रातों-रात हुआ"
+      ]
+    },
+    "correct_option_index": 3,
+    "category": "toxic_traits"
+  },
+  {
+    "id": "bank_026",
+    "en": {
+      "question_text": "Someone cancels on you the same day, no real reason given. Internal reaction vs. actual text:",
+      "options": [
+        "Internally fine, text says fine — full alignment",
+        "Internally furious, text says 'no worries at all!'",
+        "Internally relieved, text says 'aw no worries'",
+        "Internally confused, text says 'lol okay'"
+      ]
+    },
+    "hi": {
+      "question_text": "कोई बिना वजह उसी दिन प्लान कैंसिल कर देता है। अंदर का रिएक्शन vs असली मैसेज:",
+      "options": [
+        "अंदर से ठीक, मैसेज में ठीक — बिल्कुल सेम",
+        "अंदर से गुस्सा, मैसेज में 'अरे कोई बात नहीं!'",
+        "अंदर से ख़ुशी, मैसेज में 'ओह कोई बात नहीं'",
+        "अंदर से कन्फ्यूज्ड, मैसेज में 'lol okay'"
+      ]
+    },
+    "correct_option_index": 1,
+    "category": "red_flags"
+  },
+  {
+    "id": "bank_027",
+    "en": {
+      "question_text": "The most unhinged midnight craving combo that somehow works:",
+      "options": [
+        "Fries dipped in a milkshake",
+        "Chips with chocolate spread",
+        "Cold rice with pickle at 1 AM",
+        "Instant noodles with a fried egg on top"
+      ]
+    },
+    "hi": {
+      "question_text": "आधी रात का सबसे अजीब खाने का कॉम्बिनेशन जो टेस्टी लगता है:",
+      "options": [
+        "मिल्कशेक में डुबाए हुए फ्रेंच फ्राइज़",
+        "चॉकलेट स्प्रेड के साथ चिप्स",
+        "रात 1 बजे ठंडे चावल और अचार",
+        "इंस्टेंट नूडल्स और ऊपर से फ्राइड एग"
+      ]
+    },
+    "correct_option_index": 3,
+    "category": "midnight_cravings"
+  },
+  {
+    "id": "bank_028",
+    "en": {
+      "question_text": "The friend group's unofficial rule that everyone silently agrees on:",
+      "options": [
+        "Whoever's late buys the first round",
+        "No phones during actual hangout time (ignored immediately)",
+        "If you flake twice, you're getting called out",
+        "Whoever suggests the plan has to confirm the location"
+      ]
+    },
+    "hi": {
+      "question_text": "दोस्तों के ग्रुप का वो अनकहा नियम जिसे सब मानते हैं:",
+      "options": [
+        "जो लेट आएगा वो पहली पार्टी देगा",
+        "मिलते वक्त कोई फोन नहीं (जिसे सब तुरंत इग्नोर कर देते हैं)",
+        "अगर आप दो बार प्लान कैंसिल करेंगे, तो बेइज्जती पक्की है",
+        "जो प्लान बनाएगा, वही जगह तय करेगा"
+      ]
+    },
+    "correct_option_index": 2,
+    "category": "toxic_traits"
+  }
+]
