@@ -68,7 +68,7 @@ export default function CreateQuizPage() {
         {/* STEP 1: Question Builder */}
         {step === 1 && (
           <div className="bg-white p-6 sm:p-8 rounded-3xl shadow-sm border border-slate-200 transition-all duration-500">
-            <QuestionBuilder onQuestionsChange={setQuestions} initialMode="quick" />
+            <QuestionBuilder onQuestionsChange={setQuestions} />
             <div className="mt-8 pt-6 border-t border-slate-100 flex justify-end">
               <button
                 onClick={() => setStep(2)}
