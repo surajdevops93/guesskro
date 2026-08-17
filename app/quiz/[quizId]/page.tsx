@@ -16,7 +16,7 @@ async function getQuizForDisplay(quizId: string) {
   const supabase = await createClient();
   const { data, error } = await supabase
     .from('quizzes')
-    .select('id, slug, creator_name, reward_text, title, is_published, expires_at') // expires_at जोड़ दिया
+    .select('id, slug, creator_name, reward_text, title, is_published, expires_at')
     .eq('id', quizId) 
     .single();
 
@@ -35,10 +35,14 @@ export async function generateMetadata({ params }: QuizPageProps): Promise<Metad
     };
   }
 
-  const title = `${quiz.creator_name} challenged you!`;
-  const description = `Score 5/5 and win ${quiz.reward_text} with ${quiz.creator_name}! 🏆 Play now.`;
+  // 🚀 VIRAL METADATA (Brand Promotion for Link Previews)
+  const title = `🚨 ${quiz.creator_name}'s GuessKro Challenge! 🚨`;
+  const description = `🎯 Can you score 5/5? Win a 🎁 ${quiz.reward_text}! Click to play before time runs out. Powered by GuessKro 🚀`;
 
-  const ogImageUrl = new URL('/api/og', process.env.NEXT_PUBLIC_SITE_URL);
+  // Safe Base URL Logic (Prevents Vercel Crash)
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
+  
+  const ogImageUrl = new URL('/api/og', baseUrl);
   ogImageUrl.searchParams.set('creator', quiz.creator_name);
   ogImageUrl.searchParams.set('reward', quiz.reward_text);
 
@@ -48,6 +52,7 @@ export async function generateMetadata({ params }: QuizPageProps): Promise<Metad
     openGraph: {
       title,
       description,
+      siteName: 'GuessKro', // ब्रांड का नाम!
       images: [
         {
           url: ogImageUrl.toString(),
@@ -129,7 +134,7 @@ export default async function QuizPage({ params }: QuizPageProps) {
 
           <div className="mt-8 pt-8 border-t border-slate-100">
              <a href="/" className="inline-block w-full bg-indigo-600 text-white font-bold px-4 py-4 rounded-xl text-lg hover:bg-indigo-700 transition-colors shadow-md">
-               Create your own quiz for FREE 🚀
+               Create your own quiz for FREE on GuessKro 🚀
              </a>
           </div>
         </div>

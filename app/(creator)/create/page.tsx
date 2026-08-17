@@ -10,11 +10,11 @@ export default function CreateQuizPage() {
   const [questions, setQuestions] = useState<BuilderQuestion[]>([]);
   const [reward, setReward] = useState('');
   const [creatorName, setCreatorName] = useState('');
-  const [expiry, setExpiry] = useState('24h'); // <-- नया: टाइमर स्टेट
+  const [expiry, setExpiry] = useState('24h');
   
   const [isPublishing, setIsPublishing] = useState(false);
   const [quizLink, setQuizLink] = useState('');
-  const [secretLink, setSecretLink] = useState(''); // <-- नया: सीक्रेट लिंक स्टेट
+  const [secretLink, setSecretLink] = useState('');
   
   const [copied, setCopied] = useState(false);
   const [copiedSecret, setCopiedSecret] = useState(false);
@@ -23,12 +23,9 @@ export default function CreateQuizPage() {
 
   const handlePublish = async () => {
     setIsPublishing(true);
-    // यहाँ हम expiry भी भेज रहे हैं
     const result = await publishQuizAction({ questions, reward, creatorName, expiry });
     if (result.success) {
-      // 1. पब्लिक लिंक (दोस्तों के लिए)
       setQuizLink(`${window.location.origin}/quiz/${result.quizId}`);
-      // 2. सीक्रेट लिंक (सिर्फ क्रिएटर के लिए)
       setSecretLink(`${window.location.origin}/dashboard/${result.quizId}/${result.adminToken}`);
       setStep(3); 
     } else {
@@ -48,6 +45,11 @@ export default function CreateQuizPage() {
     setCopiedSecret(true);
     setTimeout(() => setCopiedSecret(false), 2000);
   };
+
+  // 🚀 WORLD-CLASS VIRAL WHATSAPP MESSAGE (Formatted & Encoded)
+  const whatsappText = encodeURIComponent(
+    `🚨 *DARE TO PLAY?* 🚨\n\nI just created a custom quiz on *GuessKro*! 🎯\n\nThink you know me? Score a perfect 5/5 and win: 🎁 *${reward}*!\n\n👇 *Click here to accept the challenge:* 👇\n${quizLink}\n\n🔥 Create your own for FREE on GuessKro!`
+  );
 
   return (
     <div className="min-h-screen bg-slate-50 py-12 px-4 sm:px-6 font-sans">
@@ -117,7 +119,6 @@ export default function CreateQuizPage() {
                 />
               </div>
 
-              {/* नया: टाइमर ड्रापडाउन */}
               <div>
                 <label className="block text-slate-700 font-bold mb-2 flex items-center gap-2">
                   <Clock size={18} className="text-indigo-500" /> Quiz Duration (Results revealed after)
@@ -180,7 +181,7 @@ export default function CreateQuizPage() {
                </div>
 
                <a 
-                 href={`https://wa.me/?text=I challenge you to my GuessKro quiz! Score 5/5 to win ${reward}. Play here: ${quizLink}`} 
+                 href={`https://wa.me/?text=${whatsappText}`} 
                  target="_blank" 
                  className="flex items-center justify-center gap-3 w-full bg-[#25D366] text-white py-4 sm:py-5 rounded-2xl font-bold text-xl hover:bg-[#20bd5a] hover:scale-[1.02] transition-all shadow-lg mt-4"
                >
